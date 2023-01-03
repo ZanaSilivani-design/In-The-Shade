@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "futura";
+  src: url(../../assets/futura/futur.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "futura";
+  src: url(../../assets/futura/FuturaHeavy.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "futura";
+  src: url(../../assets/futura/FuturaExtraBlack.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "futura";
+  src: url(../../assets/futura/unicode.futurab.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+:root {
+  --clr-primary: #154f30;
+  --clr-secondary: #e5ead9;
+  --clr-hover: #cdd1c2;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --max-width: 1100px;
+  --default-padding: 0 24px;
+  --max-w-secondary: 970px;
+}
