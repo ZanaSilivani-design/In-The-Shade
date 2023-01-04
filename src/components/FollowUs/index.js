@@ -25,7 +25,7 @@ function FollowUs() {
   return (
     <>
       <FollowWrapper>
-        <Mentor data-aos="fade-in" data-aos-delay="500">
+        <Mentor data-aos="fade-in" data-aos-delay="100">
           <Heading>Mentors Joining </Heading>
           <Description>
             If you are a college student interested in mentoring, please fill
@@ -46,7 +46,7 @@ function FollowUs() {
             </a>
           </Btn>
         </Mentor>
-        <Follow data-aos="fade-in" data-aoa-delay="1000">
+        <Follow data-aos="fade-in" data-aoa-delay="300">
           <Heading>Follow Us</Heading>
           <Description>
             Please follow us on social media to get the latest updates about in

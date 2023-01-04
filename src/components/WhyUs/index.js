@@ -27,7 +27,7 @@ function WhyUs() {
   return (
     <>
       <WhyUsSection>
-        <Content data-aos="fade-in" data-aos-delay="1000">
+        <Content data-aos="fade-in" data-aos-delay="100">
           <Graphic>
             <LineOne></LineOne>
             <LineTwo></LineTwo>
@@ -47,7 +47,7 @@ function WhyUs() {
             <FaWpforms className="Icon" />
           </a>
         </Content>
-        <Image data-aos="fade-in" data-aos-delay="500">
+        <Image data-aos="fade-in" data-aos-delay="200">
           <img src={WhyUsImage} alt="" />
         </Image>
       </WhyUsSection>

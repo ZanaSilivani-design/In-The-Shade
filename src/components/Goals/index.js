@@ -31,7 +31,7 @@ function Goals() {
       <Goal>
         <FadeHeading>KNOWLEDGE</FadeHeading>
         <GoalsWrapper>
-          <Content data-aos="fade" data-aos-delay="300">
+          <Content data-aos="fade" data-aos-delay="50">
             <span>
               <TiArrowForward />
             </span>
@@ -42,7 +42,7 @@ function Goals() {
             </Description>
           </Content>
           <Cards>
-            <Card data-aos="fade-down" data-aos-delay="300">
+            <Card data-aos="fade-down" data-aos-delay="100">
               <span>
                 <img src={Plant} alt="" />
               </span>
@@ -51,7 +51,7 @@ function Goals() {
                 Assist youth in building a strong inner connections with Allah.
               </CardDescription>
             </Card>
-            <Card data-aos="fade-in" data-aos-delay="600">
+            <Card data-aos="fade-in" data-aos-delay="200">
               <span>
                 <img src={Character} alt="" />
               </span>
@@ -60,7 +60,7 @@ function Goals() {
                 Teach youth about the character of the prophet Muhammad (SAW).
               </CardDescription>
             </Card>
-            <Card data-aos="fade-up" data-aos-delay="900">
+            <Card data-aos="fade-up" data-aos-delay="300">
               <span>
                 <img src={Leadership} alt="" />
               </span>

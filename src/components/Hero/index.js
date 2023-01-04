@@ -40,22 +40,18 @@ const Hero = () => {
               <LineTwo></LineTwo>
               <LineThree></LineThree>
             </Graphic>
-            <Heading data-aos="fade-in" data-aos-delay="300">
+            <Heading data-aos="fade-in" data-aos-delay="150">
               be under the <span className="h-span">shade</span> of Allah on a
               day when there is no shade
             </Heading>
-            <Btn>
-              <HeroLinkOne
-                to="/contact"
-                data-aos="fade-in"
-                data-aos-delay="500"
-              >
+            <Btn data-aos="fade-in" data-aos-delay="300">
+              <HeroLinkOne to="/contact">
                 Contact
                 <span>
                   <AiTwotoneMessage />
                 </span>
               </HeroLinkOne>
-              <HeroLinkTwo to="/about" data-aos="fade-in" data-aos-delay="500">
+              <HeroLinkTwo to="/about">
                 Learn More
                 <span>
                   <BsArrowRight />

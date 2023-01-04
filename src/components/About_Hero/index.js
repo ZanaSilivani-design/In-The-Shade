@@ -27,16 +27,16 @@ function AboutHero() {
       <Hero>
         <HeroWrapper>
           <Content>
-            <Graphic data-aos="fade-in" data-aos-delay="100">
+            <Graphic data-aos="fade-in" data-aos-delay="50">
               <LineOne></LineOne>
               <LineTwo></LineTwo>
               <LineThree></LineThree>
             </Graphic>
-            <Heading data-aos="fade-in" data-aos-delay="300">
+            <Heading data-aos="fade-in" data-aos-delay="150">
               We all should care about our youth to be successful in this life
               and the hereafter
             </Heading>
-            <NavItems data-aos="fade-in" data-aos-delay="500">
+            <NavItems data-aos="fade-in" data-aos-delay="300">
               <span className="FadeItem">Home</span>
               <span className="Icon">
                 <HiArrowNarrowRight />

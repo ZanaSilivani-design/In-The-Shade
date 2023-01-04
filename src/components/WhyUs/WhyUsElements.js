@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import "../Global-Variables/Variables.css";
-import { Link as LinkR } from "react-router-dom";
 
 export const WhyUsSection = styled.div`
   max-width: var(--max-w-secondary);

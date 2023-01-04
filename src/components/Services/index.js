@@ -44,7 +44,7 @@ function ServicesSection() {
           </ArrowIcon>
         </Heading>
         <Cards>
-          <Card data-aos="fade-in" data-aos-delay="100">
+          <Card data-aos="fade-in" data-aos-delay="50">
             <CardImage>
               <img src={spiritual} alt="" />
             </CardImage>
@@ -60,7 +60,7 @@ function ServicesSection() {
               <GraphicThree></GraphicThree>
             </CardGraphic>
           </Card>
-          <Card data-aos="fade-in" data-aos-delay="300">
+          <Card data-aos="fade-in" data-aos-delay="100">
             <CardImage>
               <img src={sports} alt="" />
             </CardImage>
@@ -76,7 +76,7 @@ function ServicesSection() {
               <GraphicThree></GraphicThree>
             </CardGraphic>
           </Card>
-          <Card data-aos="fade-in" data-aos-delay="500">
+          <Card data-aos="fade-in" data-aos-delay="150">
             <CardImage>
               <img src={brain} alt="" />
             </CardImage>
@@ -91,7 +91,7 @@ function ServicesSection() {
               <GraphicThree></GraphicThree>
             </CardGraphic>
           </Card>
-          <Card data-aos="fade-in" data-aos-delay="700">
+          <Card data-aos="fade-in" data-aos-delay="200">
             <CardImage>
               <img src={academic} alt="" />
             </CardImage>
@@ -107,7 +107,7 @@ function ServicesSection() {
               <GraphicThree></GraphicThree>
             </CardGraphic>
           </Card>
-          <Card data-aos="fade-in" data-aos-delay="900">
+          <Card data-aos="fade-in" data-aos-delay="250">
             <CardImage>
               <img src={network} alt="" />
             </CardImage>
@@ -123,7 +123,7 @@ function ServicesSection() {
               <GraphicThree></GraphicThree>
             </CardGraphic>
           </Card>
-          <Card data-aos="fade-in" data-aos-delay="1100">
+          <Card data-aos="fade-in" data-aos-delay="300">
             <CardImage>
               <img src={art} alt="" />
             </CardImage>
