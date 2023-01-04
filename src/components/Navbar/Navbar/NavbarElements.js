@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import "../../Global-Variables/Variables.css";
+
 export const Nav = styled.nav`
   background: var(--clr-primary);
   height: 80px;
-  //   margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,10 +12,6 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-
-  @media screen and (max-width: 960px) {
-    transition: 0.8s all ease;
-  }
 `;
 
 export const NavbarContainer = styled.div`
@@ -26,7 +22,6 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: var(--default-padding);
   max-width: var(--max-width);
-  font-weight: 500;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -80,7 +75,7 @@ export const NavLink = styled(LinkR)`
   height: 100%;
   cursor: pointer;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
 
   &::before {
     content: "";
@@ -116,6 +111,7 @@ export const NavBtn = styled.nav`
     padding: 5px 15px;
     color: var(--clr-black);
     font-size: 1.1rem;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;

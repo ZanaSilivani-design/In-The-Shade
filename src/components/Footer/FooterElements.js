@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import "../Global-Variables/Variables.css";
+
 export const FooterSection = styled.div`
   background: var(--clr-primary);
   position: relative;
@@ -38,7 +39,7 @@ export const NavItem = styled.li`
     color: var(--clr-white);
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
   }
 `;
 export const NavLink = styled(LinkR)`
@@ -86,7 +87,7 @@ export const Copyright = styled.div`
   display: flex;
   font-size: 1rem;
   color: var(--clr-white);
-  font-weight: 400;
+  font-weight: 700;
   justify-content: center;
   span {
     display: flex;

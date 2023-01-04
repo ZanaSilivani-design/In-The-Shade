@@ -49,8 +49,8 @@ function FollowUs() {
         <Follow data-aos="fade-in" data-aoa-delay="1000">
           <Heading>Follow Us</Heading>
           <Description>
-            Please follow us on social media to get the latest updates and news
-            about in the shade program and its events.
+            Please follow us on social media to get the latest updates about in
+            the shade program and its events.
           </Description>
           <SocialMediaIcons>
             <a href="" target="blank">

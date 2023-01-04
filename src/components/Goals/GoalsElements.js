@@ -19,7 +19,7 @@ export const GoalsWrapper = styled.div`
 export const FadeHeading = styled.div`
   font-size: 15rem;
   opacity: 5%;
-  font-weight: 600;
+  font-weight: 800;
   position: absolute;
   user-select: none;
   top: 50%;
@@ -40,7 +40,7 @@ export const Content = styled.div`
 `;
 export const Heading = styled.div`
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: -15px 0 20px 0;
 `;
 export const Description = styled.div`
@@ -72,10 +72,10 @@ export const Card = styled.div`
 `;
 export const CardHeading = styled.div`
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0.5em 0 0.2em 0;
 `;
 export const CardDescription = styled.div`
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
 `;

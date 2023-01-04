@@ -44,9 +44,7 @@ function WhyUs() {
           </Description>
           <a href="https://google.com" target="blank">
             Join Now
-            <span>
-              <FaWpforms />
-            </span>
+            <FaWpforms className="Icon" />
           </a>
         </Content>
         <Image data-aos="fade-in" data-aos-delay="500">

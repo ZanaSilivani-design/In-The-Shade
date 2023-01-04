@@ -26,19 +26,19 @@ export const Content = styled.div`
     text-decoration: none;
     color: var(--clr-white);
     font-size: 1.2rem;
+    font-weight: 600;
     padding: 0.3em 1em;
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin: 1em 0em 0em 0em;
-    width: 146px;
+    width: 160px;
+    margin: 1.5em 0em 0em 0em;
     border-radius: 4px;
     overflow: hidden;
     isolation: isolate;
     transition: all 0.3s ease-in-out;
-    span {
-      display: flex;
-      margin-left: 5px;
+    .Icon {
+      margin-left: 0.5em;
     }
     &::after {
       content: "";
@@ -94,11 +94,12 @@ export const LineThree = styled.div`
 `;
 export const Heading = styled.div`
   font-size: 1.4rem;
-  font-weight: 600;
-  margin-bottom: 0.5em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
 `;
 export const Description = styled.div`
   font-size: 1rem;
+  font-weight: 500;
 `;
 export const Image = styled.div`
   grid-column: 3/-1;

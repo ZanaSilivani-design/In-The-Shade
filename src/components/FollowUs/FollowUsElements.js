@@ -14,11 +14,12 @@ export const Mentor = styled.div`
 `;
 export const Heading = styled.div`
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
   margin: 0 0 0.5em 0;
 `;
 export const Description = styled.div`
   margin: 0 0 1.2em 0;
+  font-weight: 500;
 `;
 export const Btn = styled.div`
   display: flex;
@@ -26,7 +27,7 @@ export const Btn = styled.div`
   a {
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 1em 0 0;
     display: flex;
   }
@@ -36,7 +37,7 @@ export const Btn = styled.div`
     color: var(--clr-white);
     padding: 0.3em 1em;
     border-radius: 4px;
-    width: 126px;
+    width: 130px;
     overflow: hidden;
     isolation: isolate;
     transition: all 0.3s ease-in-out;

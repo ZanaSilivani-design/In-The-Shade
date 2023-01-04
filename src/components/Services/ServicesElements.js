@@ -9,7 +9,7 @@ export const Services = styled.div`
 export const FadedHeading = styled.div`
   position: absolute;
   font-size: clamp(4rem, 4vw + 1rem, 5rem);
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: 2px;
   user-select: none;
   opacity: 5%;
@@ -17,7 +17,7 @@ export const FadedHeading = styled.div`
 `;
 export const Heading = styled.div`
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   padding: 10px 24px;
   display: flex;
 `;
@@ -32,14 +32,14 @@ export const ArrowIcon = styled.div`
 `;
 export const Cards = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
   padding: var(--default-padding);
   margin: 0.7em auto 0 auto;
 `;
 export const Card = styled.div`
   background: var(--clr-secondary);
   position: relative;
-  width: 270px;
+  width: 280px;
   padding: 1.5em 1.2em;
   margin: 0 auto 1.5em auto;
   border-radius: 4px;
@@ -52,20 +52,20 @@ export const CardImage = styled.div`
 `;
 export const CardHeading = styled.h1`
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 1em;
 `;
 export const CardDescription = styled.p`
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 0.8em;
 `;
 export const CardNumber = styled.h1`
   position: absolute;
-  top: 0.3em;
+  top: 1px;
   right: 0.5em;
-  font-weight: 600;
-  font-size: 2.7rem;
+  font-weight: 800;
+  font-size: 3.7rem;
   opacity: 30%;
 `;
 export const CardGraphic = styled.div`

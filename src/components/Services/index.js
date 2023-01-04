@@ -129,8 +129,8 @@ function ServicesSection() {
             </CardImage>
             <CardHeading>Art & Culture</CardHeading>
             <CardDescription>
-              We will have activities and events for youths to participate in
-              growing their craft.
+              We will have activities and events for youths to join to grow
+              their craft.
             </CardDescription>
             <CardNumber>6</CardNumber>
             <CardGraphic>

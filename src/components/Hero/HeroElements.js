@@ -49,14 +49,14 @@ export const LineThree = styled.div`
   opacity: 0.3;
   margin-left: -2px;
 `;
-export const Heading = styled.h1`
-  line-height: 1.2;
+export const Heading = styled.div`
+  line-height: 1.4;
   font-size: clamp(1.7rem, 4vw + 1rem, 3.7rem);
   width: 80%;
   text-transform: capitalize;
   letter-spacing: 1px;
   margin: 0 0 0.8em 0;
-  font-weight: 600;
+  font-weight: 800;
   .h-span {
     background: var(--clr-secondary);
     color: var(--clr-primary);
@@ -81,8 +81,8 @@ export const HeroLinkOne = styled(LinkR)`
   background: var(--clr-white);
   padding: 5px 20px;
   border-radius: 4px;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 600;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -123,7 +123,7 @@ export const HeroLinkTwo = styled(LinkR)`
   margin-left: 1em;
   color: var(--clr-secondary);
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 600;
   display: flex;
   align-items: center;
   span {

@@ -51,6 +51,7 @@ export const SidebarLink = styled(LinkR)`
   justify-content: left;
   align-items: center;
   font-size: 1.5rem;
+  font-weight: 600;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
@@ -73,6 +74,8 @@ export const SidebarBtn = styled.div`
     justify-content: left;
     align-items: center;
     font-size: 1.5rem;
+    font-weight: 600;
+
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
