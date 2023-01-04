@@ -33,7 +33,7 @@ export const InfoWrapper = styled.div`
 export const Heading = styled.div`
   color: var(--clr-white);
   font-size: clamp(1.7rem, 4vw + 1rem, 4rem);
-  font-weight: 600;
+  font-weight: 700;
 `;
 export const Content = styled.div`
   margin: 4em 0;
@@ -44,7 +44,7 @@ export const ContentItem = styled.div`
     text-decoration: none;
     color: var(--clr-white);
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 600;
     cursor: pointer;
     span {
       margin-right: 1em;
@@ -93,13 +93,13 @@ export const FormHeading = styled.div`
   margin-bottom: 0.5em;
   color: var(--clr-primary);
   font-size: clamp(1.7rem, 4vw + 1rem, 4rem);
-  font-weight: 600;
+  font-weight: 700;
 `;
 
 export const Name = styled.div`
   label {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     display: block;
     margin-bottom: 0.5em;
   }
@@ -121,7 +121,7 @@ export const Email = styled.div`
   margin: 2em 0;
   label {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     display: block;
     margin-bottom: 0.5em;
   }
@@ -143,7 +143,7 @@ export const Email = styled.div`
 export const Message = styled.div`
   label {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     display: block;
     margin-bottom: 0.5em;
   }

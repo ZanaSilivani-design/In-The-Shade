@@ -53,9 +53,10 @@ export const LineThree = styled.div`
 `;
 
 export const Heading = styled.div`
-  font-size: clamp(1.5rem, 4vw, 3rem);
-  width: 70%;
-  font-weight: 500;
+  font-size: clamp(1.4rem, 4vw, 3rem);
+  line-height: 1.4;
+  width: 72%;
+  font-weight: 700;
   color: var(--clr-white);
   text-transform: capitalize;
 
@@ -67,6 +68,7 @@ export const NavItems = styled.div`
   color: var(--clr-white);
   display: flex;
   font-size: 1rem;
+  font-weight: 600;
   margin: 2em 0;
   span {
     display: flex;

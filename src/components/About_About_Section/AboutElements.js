@@ -17,10 +17,9 @@ export const Content = styled.div``;
 export const SHeading = styled.div`
   color: var(--clr-primary);
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
   display: flex;
   align-items: flex-end;
-  margin-bottom: 0.3em;
 `;
 export const Graphic = styled.div`
   background-color: var(--clr-primary);
@@ -31,11 +30,12 @@ export const Graphic = styled.div`
 `;
 export const Heading = styled.div`
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.5em;
 `;
 export const Paragraph = styled.div`
   padding: 0 0 0.8em 0;
+  font-weight: 500;
 `;
 export const Image = styled.div`
   margin-top: 1.5em;

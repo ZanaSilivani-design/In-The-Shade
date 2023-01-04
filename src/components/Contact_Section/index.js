@@ -153,7 +153,7 @@ function ContactSection() {
             </Email>
             <Message data-aos="fade-in" data-aos-delay="200">
               <label>Write Your Message....</label>
-              <textarea name="message" required></textarea>
+              <textarea name="message" required maxLength="350"></textarea>
             </Message>
             <Btn>
               <button type="submit">
