@@ -29,6 +29,7 @@ export const NavLogo = styled(LinkR)`
   cursor: pointer;
   display: flex;
   align-items: center;
+  width: 100px;
   img {
     height: 90%;
   }
