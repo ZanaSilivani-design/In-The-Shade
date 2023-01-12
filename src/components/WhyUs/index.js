@@ -33,7 +33,7 @@ function WhyUs() {
             <LineTwo></LineTwo>
             <LineThree></LineThree>
           </Graphic>
-          <Heading>Why is it important to involve your children?</Heading>
+          <Heading>Why it's important to involve your children</Heading>
           <Description>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

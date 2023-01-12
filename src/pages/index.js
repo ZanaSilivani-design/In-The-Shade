@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import ServicesSection from "../components/Services";
+import ServicesSection from "../components/Services_Section";
 import WhyUs from "../components/WhyUs";
 import Goals from "../components/Goals";
 import FollowUs from "../components/FollowUs";
